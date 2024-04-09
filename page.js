@@ -37,6 +37,12 @@ searchBtn.addEventListener("click", ()=>{
                 <span>${data[0].currencies[Object.keys(data[0].currencies)].name}</span>
             </div>
         </div>
+        <div class="wrapper">
+        <div class="data-wrapper">
+            <h4>Languages:</h4>
+            <span>${Object.values(data[0].languages)}</span>
+        </div>
+    </div>
         `
 
     }).catch(()=>{
